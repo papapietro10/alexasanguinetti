@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alexasanguinetti/static/css/main.ee9cd6e0.css",
+    "main.js": "/alexasanguinetti/static/js/main.63dd3248.js",
+    "static/js/787.28cb0dcd.chunk.js": "/alexasanguinetti/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/alexasanguinetti/index.html",
+    "main.ee9cd6e0.css.map": "/alexasanguinetti/static/css/main.ee9cd6e0.css.map",
+    "main.63dd3248.js.map": "/alexasanguinetti/static/js/main.63dd3248.js.map",
+    "787.28cb0dcd.chunk.js.map": "/alexasanguinetti/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee9cd6e0.css",
+    "static/js/main.63dd3248.js"
+  ]
+}
