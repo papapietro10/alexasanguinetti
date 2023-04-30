@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+.nav {
+  background-color: rgb(16, 16, 16);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.691);
+}
+.inicio-anto {
+  color: #fff1da;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 1.5em;
+}
+.nav-buton {
+  background-color: aliceblue;
+  color: #fff1da;
+}
+.link {
+  text-decoration: none;
+}
+
+/*LOGO DE INICIO*/
+.header-logo {
+  width: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .inicio-anto {
+    font-size: 1.5em;
+    margin-bottom: 10%;
+  }
+}

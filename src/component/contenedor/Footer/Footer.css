@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.footer {
+  background-color: #ffffff;
+
+  width: 100%;
+  padding-top: 2%;
+  text-align: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer h4 {
+  color: #8b8f95;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer p,
+.footer li {
+  font-family: "Roboto", sans-serif;
+  color: #8b8f95;
+}
+
+.footer a {
+  font-family: "Roboto", sans-serif;
+  color: #8b8f95;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: left;
+  width: 100%;
+}
+
+@media only screen and (min-width: 340px) and (max-width: 440px) {
+  .argentina {
+    margin-top: 3em;
+  }
+  .uruguay {
+    margin-top: 3em;
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 540px) {
+  .argentina {
+    margin-top: 3em;
+  }
+  .uruguay {
+    margin-top: 3em;
+  }
+}

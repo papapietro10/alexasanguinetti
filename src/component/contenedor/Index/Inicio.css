@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.index {
+  height: 40em;
+  background-size: 100% 100%;
+}
+
+.container-index {
+  width: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.container-index h2 {
+  color: rgb(56, 56, 56);
+  font-size: 4em;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin-left: 2em;
+  margin-bottom: 0.5em;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.coming-soon {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.coming-soon h4 {
+  color: rgb(143, 142, 142);
+  font-size: 2em;
+  padding-right: 2em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@media only screen and (min-width: 340px) and (max-width: 440px) {
+  .container-index h2 {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+  }
+  .coming-soon h4 {
+    position: relative;
+    top: 2em;
+  }
+}
+@media only screen and (min-width: 440px) and (max-width: 540px) {
+  .container-index h2 {
+    font-size: 2.6em;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+  }
+  .coming-soon h4 {
+    position: relative;
+    top: 2em;
+  }
+}
