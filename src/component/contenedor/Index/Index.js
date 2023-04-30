@@ -1,4 +1,4 @@
-import "../Index/Inicio.css";
+import "./Inicio.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
